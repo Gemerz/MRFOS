@@ -1,0 +1,155 @@
+ <include file="public:header1" />
+ <script src="__ROOT__/static/js/bootstrap-datepicker.js"></script>
+  <link href="__ROOT__/static/css/datepicker.css" rel="stylesheet">
+  <script>
+      $(document).ready(function(){
+	  		 $('.AJAXselect').AJAXselect({
+						 	url:"{:U('goods/ajax_getchilds')}",
+						 });
+						 $('.storage_sel').change(function(){
+							var t =$(this).val();
+							$('#storage_id').val(t);
+						 });
+		
+			$('#datepick').datepicker();
+	$('#form').validation();
+	$('#unit').blur(function(){
+		var unit=$('#unit').val(),
+			count=$('#count').blur().val();
+			count = count ? count : 0;
+			$('#price').val(unit*count);
+		
+	});
+	});
+	
+  </script>
+  <hr>
+<div class="mainbody">
+<div class="add_menu">
+<form class="form form-horizontal" action="{:U('goods/add')}" method="post" id="form">
+	<fieldset>
+		<legend>
+{:L('goods_add')}
+</legend>
+ <div class="control-group">
+        <label class="control-label">{:L('supply')} :</label>
+        <div class="controls">
+            <input type="text" id="supply" name="supply" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+ <div class="control-group">
+        <label class="control-label">{:L('goods_title')} :</label>
+        <div class="controls">
+            <input type="text" id="name" name="name" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+	  <div class="control-group">
+        <label class="control-label">{:L('title_en')} :</label>
+        <div class="controls">
+            <input type="text" id="ename" name="ename" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+	 <div class="control-group">
+	 	<label class="control-label" > {:L('goods_cate')} :</label>
+	 	   <div class="controls">
+	 	<select class="AJAXselect" data-toggle="AJAXselect" data-pid="0" data-selected="{$spid}"></select>
+				<input type="hidden" name="cate_id" id="cate_id" />
+				 </div>
+	 	</div>
+		 <div class="control-group">
+	 	<label class="control-label" > {:L('storage_cate')} :</label>
+	 	   <div class="controls">
+	 	<select class="storage_sel" style="width:110px;">
+	 		<option value='0'>{:L('pls_select')}</option>
+	 		<volist name="storage_list" id="val">
+	 		<option value="{$val.id}">{$val.name}</option>
+				
+				
+	 		</volist>
+	 	</select>
+				<input type="hidden" name="storage_id" id="storage_id" />
+				 </div>
+	 	</div>
+   
+	   <div class="control-group">
+        <label class="control-label">{:L('goods_code')} :</label>
+        <div class="controls">
+            <input type="text" id="code" name="code" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+	   <div class="control-group">
+        <label class="control-label">{:L('goods_place')} :</label>
+        <div class="controls">
+            <input type="text" id="place" name="place" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+		   <div class="control-group">
+        <label class="control-label">{:L('goods_size')} :</label>
+        <div class="controls">
+            <input type="text" id="size" name="size" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+	   <div class="control-group">
+        <label class="control-label">{:L('goods_count')} :</label>
+        <div class="controls">
+            <input type="text" id="count" name="count" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+	  <div class="control-group">
+        <label class="control-label">{:L('goods_unit')} :</label>
+        <div class="controls">
+            <input type="text" id="unit" name="unit" check-type="required" required-message="名字不能为空！" onkeyup="value=value.replace(/[^\d.]/g,'')"  >
+        
+		</div>
+    </div>
+	   <div class="control-group">
+        <label class="control-label">{:L('goods_price')} :</label>
+        <div class="controls ">
+            <input type="text" id="price" name="price" check-type="required" required-message="名字不能为空！"onkeyup="value=value.replace(/[^\d.]/g,'')"  >
+       
+	    </div>
+    </div>
+	    <div class="control-group">
+        <label class="control-label">{:L('goods_add_time')} :</label>
+        <div class="controls">
+               <div class="input-append date" id="datepick" data-date="" data-date-format="yyyy-mm-dd">
+    <input name="add_time" id="add_time" class="span2" size="16" type="text" value="">
+    <span class="add-on"><i class="icon-th"></i></span>
+    </div>
+        </div>
+    </div>
+       <div class="control-group">
+        <label class="control-label">{:L('request_by')} :</label>
+        <div class="controls">
+            <input type="text" id="request_by" name="request_by" check-type="required" required-message="名字不能为空！"  >
+        
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{:L('status')} :</label>
+        <div class="controls">
+            <label class="radio inline">
+			<input type="radio" name="status" id="status" value="0" checked='checked'>
+			{:L('un-status')}
+			</label>
+			 <label class="radio inline">
+			<input type="radio" name="status" id="status" value="1" >
+			{:L('statused')}
+			</label>
+        </div>
+    </div>
+       <div class="control-group">
+        <label class="control-label">{:L('remark')} :</label>
+        <div class="controls">
+            <input type="text" id="remark" name="remark" check-type="required" required-message="名字不能为空！"  >
+        
+        </div>
+    </div>
+   <button type="submit" class="btn">{:L('save')}</button>
+   </fieldset>
+</form>
+</div>
+	  
+   
+</div>
+<hr><include file="public:footer" />
