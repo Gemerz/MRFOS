@@ -1,0 +1,31 @@
+<div class="add_menu">
+<form class="form form-horizontal" method="post">
+	 <div class="control-group">
+	 	<label class="control-label" > {:L('goods_cate_parent')} :</label>
+	 	   <div class="controls">
+	 	<select class="AJAXselect" data-toggle="AJAXselect" data-pid="0" data-selected="{$spid}" data-getList="false"></select>
+				<input type="hidden" name="pid" id="cate_id" />
+				 </div>
+	 	</div>
+    <div class="control-group">
+        <label class="control-label">{:L('goods_cate_title')} :</label>
+        <div class="controls">
+            <input type="text" id="name" name="name" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{:L('status')} :</label>
+        <div class="controls">
+            <label class="radio">
+			<input type="radio" name="status" id="status" value="0" checked='checked'>
+			{:L('un-status')}
+			</label>
+			 <label class="radio">
+			<input type="radio" name="status" id="status" value="1" >
+			{:L('statused')}
+			</label>
+        </div>
+    </div>
+   
+</form>
+</div>
