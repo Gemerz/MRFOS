@@ -1,0 +1,2677 @@
+[ 2013-07-05T10:25:30+08:00 ] 127.0.0.1 /index.php?m=index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000455s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.039424s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000919s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001371s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001462s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037555s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000572s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000514s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000404s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2013-07-05T10:25:30+08:00 ] ERR: (ThinkException) 无法加载模块:static
+[ 2013-07-05T10:25:31+08:00 ] 127.0.0.1 /index.php?m=index&a=verify_code&t=1372991130
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001664s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000253s ]
+
+[ 2013-07-05T10:25:37+08:00 ] 127.0.0.1 /index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.017662s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000290s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000481s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.071809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071976s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000372s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2013-07-05T10:25:37+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-07-05T10:25:38+08:00 ] ERR: (ThinkException) 无法加载模块:favicon
+[ 2013-07-05T10:25:39+08:00 ] 127.0.0.1 /index.php/storage
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001511s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.016769s ]
+SQL: SELECT * FROM `gs_storage`  [ RunTime:0.017670s ]
+NOTIC: [8] Undefined variable: parentid /Users/gemerz/foa/app/Lib/ORG/Tree.class.php 第 121 行.
+NOTIC: [8] Undefined variable: parentid /Users/gemerz/foa/app/Lib/ORG/Tree.class.php 第 121 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000394s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000184s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000313s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2013-07-05T10:25:42+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000331s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001417s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.009163s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.028965s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.024415s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.015116s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001712s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000330s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000269s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 285 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 285 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 285 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.041725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041782s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000374s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000192s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2013-07-05T10:31:21+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000323s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001344s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.010756s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001579s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000352s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004773s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000299s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000270s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000318s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013132s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000326s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000206s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000110s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000311s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2013-07-05T10:36:25+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.003399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.021458s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002141s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001801s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000464s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001635s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000244s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.057578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057659s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000467s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000292s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000448s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2013-07-05T10:36:49+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000291s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001393s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002044s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001641s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000719s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.018913s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000175s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012818s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000389s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000315s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2013-07-05T10:37:25+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001164s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.021439s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001406s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000660s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.003447s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000190s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000280s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 290 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000336s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000305s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001227s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2013-07-05T10:38:31+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000393s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.010118s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.012874s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001401s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000655s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000200s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001639s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000187s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015380s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000358s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000113s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2013-07-05T10:39:27+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000650s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.261239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.262002s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.215460s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.027189s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.267047s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.002623s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.001001s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.262640s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000353s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.016049s ]
+INFO: [ view_template ] --END-- [ RunTime:0.016125s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.345088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.345247s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.112996s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000612s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000295s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.114535s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2013-07-05T10:39:43+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000286s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.042386s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.013590s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.004718s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000537s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000548s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001820s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000537s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000229s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 291 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015386s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000394s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000366s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003651s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000471s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2013-07-05T10:41:29+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020546s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020636s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000367s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001370s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002071s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001547s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000389s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001531s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000675s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000636s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000531s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000709s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2013-07-05T10:42:07+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000283s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.006911s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.015843s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001515s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000329s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.005818s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000173s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000225s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013040s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000302s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2013-07-05T10:45:39+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000440s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000284s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001473s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.003155s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001919s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000313s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001489s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000223s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012644s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000318s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2013-07-05T10:45:41+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001416s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.011403s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001409s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000320s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.009437s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000182s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000331s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2013-07-05T10:46:49+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001406s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001789s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000339s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.019318s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000178s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000233s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 292 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013489s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-07-05T10:48:20+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000288s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001429s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.019522s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001495s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000314s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004925s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000211s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012791s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000320s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000203s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2013-07-05T10:49:58+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000296s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001332s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.008070s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001897s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000306s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.003422s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000210s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000228s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012837s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000333s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2013-07-05T10:51:43+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000362s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.009734s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002906s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001493s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000351s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001456s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000217s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000371s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000255s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000124s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2013-07-05T10:52:14+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000334s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001337s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002368s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001792s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000402s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.008737s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000190s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000235s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012677s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000343s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000203s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-07-05T10:52:20+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000267s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001255s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.001887s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001372s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000438s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001335s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000172s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013227s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000359s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000202s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-07-05T10:52:30+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000321s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001355s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001990s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000325s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001663s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000289s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000254s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013693s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000337s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-07-05T10:52:33+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000320s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001368s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001504s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000394s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.006894s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000160s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012646s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000333s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000311s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2013-07-05T10:52:47+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000366s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.004060s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001469s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000375s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001432s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013172s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000331s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2013-07-05T10:52:56+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000504s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000312s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001348s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.025341s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001759s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000409s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.003821s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000206s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000324s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015409s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000329s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2013-07-05T10:53:00+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001561s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.018313s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001590s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000199s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000387s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004224s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000235s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000217s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012753s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000334s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2013-07-05T10:53:10+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001255s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000222s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.007982s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000161s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000312s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001427s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000162s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000215s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000334s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2013-07-05T10:54:06+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001493s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.001988s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.006248s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000318s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001726s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000209s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 295 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012741s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000317s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000188s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000118s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2013-07-05T10:54:39+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000303s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001355s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.003655s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001628s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000348s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.003871s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000173s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000217s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012493s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000313s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2013-07-05T10:55:18+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000309s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.021020s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.017642s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.002074s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000386s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001482s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000187s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000232s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012593s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000126s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2013-07-05T10:57:09+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000598s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000319s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.015097s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.064175s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.038783s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000659s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.002113s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000284s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015974s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000364s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000117s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2013-07-05T10:57:59+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000299s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001455s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002009s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.017005s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000369s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001978s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000181s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 294 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012529s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000341s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000231s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000352s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2013-07-05T10:58:42+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000292s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001358s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.013864s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000311s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001386s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 276 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 276 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 276 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012292s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000317s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000248s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2013-07-05T10:58:54+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000287s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.008090s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001423s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000156s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000312s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001373s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000149s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000207s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012616s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000299s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2013-07-05T11:00:29+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000498s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001423s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001548s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000330s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001770s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000217s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000277s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012182s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000312s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000190s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000115s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2013-07-05T11:00:33+08:00 ] 127.0.0.1 /index.php?m=goods&a=edit&id=8
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000280s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001475s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.019304s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001506s ]
+SQL: SELECT * FROM `gs_goods` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.030490s ]
+SQL: SELECT `spid` FROM `gs_goods_cate` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `gs_goods_img` [ RunTime:0.001641s ]
+SQL: SELECT * FROM `gs_goods_img` WHERE ( cate_id=8 )  [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001705s ]
+SQL: SELECT * FROM `gs_storage`  [ RunTime:0.000177s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000273s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goods_img /Users/gemerz/foa/data/runtime/Cache/2bf68ab6c85c1b75a15a384c589585f5.php 第 375 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.031147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031198s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000302s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000442s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000167s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2013-07-05T11:01:32+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000295s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001497s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.006391s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001597s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000320s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004357s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000180s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012133s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000342s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2013-07-05T11:04:07+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000276s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001281s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002250s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.015441s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000344s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.005088s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000186s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000234s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined variable: add_menu /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 312 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012567s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000590s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000298s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000129s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2013-07-05T11:05:19+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001528s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.010689s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000418s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.005037s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000484s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000246s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013062s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000334s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000204s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000121s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2013-07-05T11:09:17+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000335s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001349s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.009373s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001473s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000317s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.013537s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013039s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000318s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000212s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2013-07-05T11:13:18+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000529s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000370s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001403s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001716s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000333s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001423s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 273 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013120s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000991s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2013-07-05T11:24:59+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001351s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.019957s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000314s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001380s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000148s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000207s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 282 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 282 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 282 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012988s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000318s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000211s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000123s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-07-05T11:28:37+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000373s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001384s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002766s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001777s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000318s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001456s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000168s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012427s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000332s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000202s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2013-07-05T11:29:16+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000356s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001477s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.019543s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001411s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000155s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000397s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.009743s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000175s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000265s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013777s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000349s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000206s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2013-07-05T11:29:57+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001341s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001664s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000317s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.010237s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000224s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012832s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000335s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000194s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2013-07-05T11:30:11+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000494s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001385s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.005677s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001642s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000317s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.011865s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000217s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000228s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012699s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000333s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000114s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000297s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2013-07-05T11:30:39+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000298s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001353s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.009816s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001512s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000389s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004912s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000196s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000331s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-07-05T11:31:57+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000289s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001371s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.010140s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001532s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000343s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004332s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000282s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000319s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012497s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000322s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-07-05T11:32:46+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001358s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.003979s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001662s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000431s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.008650s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000171s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000358s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000198s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2013-07-05T11:33:14+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000511s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001371s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.009524s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000158s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000330s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001396s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000161s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 283 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012775s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000306s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000203s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000104s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000343s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2013-07-05T11:34:55+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000445s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000277s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001503s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.015813s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000327s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001407s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000155s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000216s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012762s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000377s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000119s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2013-07-05T11:35:02+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000489s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000500s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.016886s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.006286s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000376s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004847s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000193s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000223s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013604s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000327s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000206s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2013-07-05T11:36:59+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000577s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000328s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001408s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002068s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001461s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000169s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000341s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.005547s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000305s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013767s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000353s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000212s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000311s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2013-07-05T11:38:12+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000318s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001368s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.014712s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001456s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000568s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.003504s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000255s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000416s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000327s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2013-07-05T11:38:14+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000316s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001456s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.008821s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001471s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000353s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004028s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000147s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000390s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000242s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001095s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2013-07-05T11:38:15+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001383s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.004967s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001520s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000466s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000184s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004488s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000202s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000225s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013260s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000325s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000294s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-07-05T11:38:16+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000337s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.003409s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000180s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.007087s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001507s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000420s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004677s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000216s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000304s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014487s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000440s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000254s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2013-07-05T11:38:17+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000440s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001381s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.007817s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000311s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001252s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000154s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012690s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000320s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2013-07-05T11:38:39+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000439s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000263s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001451s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.005529s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001541s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000349s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004242s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000169s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012995s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000328s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2013-07-05T11:38:56+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000339s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001941s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001857s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000383s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.015974s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000191s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012725s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000322s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000104s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-07-05T11:46:13+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000673s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000667s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001393s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.007167s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001810s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000352s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004784s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000219s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000282s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013950s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000335s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000209s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2013-07-05T11:57:14+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000492s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000314s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001988s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002114s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.002021s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000315s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000136s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001400s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000165s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000221s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000378s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000221s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000112s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2013-07-05T11:57:46+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001406s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.009742s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001536s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000335s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.006638s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000213s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000261s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013223s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000315s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000201s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-07-05T11:57:48+08:00 ] 127.0.0.1 /index.php?m=goods&a=edit&id=8
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000339s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001392s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.001983s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.010479s ]
+SQL: SELECT * FROM `gs_goods` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT `spid` FROM `gs_goods_cate` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `gs_goods_img` [ RunTime:0.001451s ]
+SQL: SELECT * FROM `gs_goods_img` WHERE ( cate_id=8 )  [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004670s ]
+SQL: SELECT * FROM `gs_storage`  [ RunTime:0.000167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: goods_img /Users/gemerz/foa/data/runtime/Cache/2bf68ab6c85c1b75a15a384c589585f5.php 第 375 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.030110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030162s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000305s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000149s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001002s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2013-07-05T11:58:05+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000306s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001294s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002175s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001666s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000343s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.010911s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000170s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013617s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000313s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2013-07-05T11:58:16+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001366s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002048s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.010627s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000316s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001425s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000147s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000207s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012738s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000352s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000196s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000120s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2013-07-05T11:58:32+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000302s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001876s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002326s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001808s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000383s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001861s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000283s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000254s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012708s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000310s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000205s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000315s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2013-07-05T11:59:28+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000304s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.004293s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.002349s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000343s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001415s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000177s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012780s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000314s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000122s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-07-05T12:00:13+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000296s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001701s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000181s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002730s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001683s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000393s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.001582s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000187s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000224s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000331s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2013-07-05T12:00:36+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000290s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001622s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.008658s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001534s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000147s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000304s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.006827s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000195s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013802s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000322s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000195s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000108s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2013-07-05T12:01:06+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000438s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001294s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.008183s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.002472s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000157s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000310s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.008901s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000178s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000224s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012980s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000364s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000255s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000127s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2013-07-05T12:01:23+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000357s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001454s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.010412s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.001350s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000336s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004652s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000157s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012765s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000319s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000191s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000103s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2013-07-05T12:05:21+08:00 ] 127.0.0.1 /index.php/goods
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000345s ]
+NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' /Users/gemerz/foa/app/Lib/Behavior/load_langBehavior.class.php 第 26 行.
+INFO: Run load_lang Behavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `gs_role` [ RunTime:0.001370s ]
+SQL: SELECT * FROM `gs_role`  [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `gs_goods` [ RunTime:0.002075s ]
+SQL: SHOW COLUMNS FROM `gs_goods_cate` [ RunTime:0.030211s ]
+SQL: SELECT COUNT(id) AS tp_count FROM `gs_goods` LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `gs_goods` ORDER BY add_time DESC  LIMIT 0,20   [ RunTime:0.000638s ]
+SQL: SELECT `id`,`name` FROM `gs_goods_cate`  [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `gs_storage` [ RunTime:0.004795s ]
+SQL: SELECT `id`,`name` FROM `gs_storage`  [ RunTime:0.000337s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000347s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+NOTIC: [8] Undefined index: 1 /Users/gemerz/foa/data/runtime/Cache/3cb34fb0400943b673f06eb7290cd7bd.php 第 284 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015181s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000418s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000380s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000131s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000407s ]
+

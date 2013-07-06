@@ -1,0 +1,48 @@
+<include file="public:header" />
+ <script>
+ 	$(document).ready(function(){
+				$('.{$add_menu.btn}').click(function(){
+					var name=$('#name').val(),
+						spid=$('.{$add_menu.id}').attr('data-select'),
+						pid =$('#cate_id').val();	
+					$.post('{$add_menu.url}',{name:name,pid:pid},function(data) {
+						if(data['status']== 1){
+							 $('#{$add_menu.id}').modal('hide');
+							 $('.loading').modal('show');
+							setTimeout(function(){
+								$('.loading').modal('hide');
+							},1000);
+							window.location.reload();
+						 
+						}
+					});
+				});
+	});
+ </script>
+ 
+     <hr>
+
+<div class="mainbody">
+	
+	<table class="table table-striped accordion">
+   <thead>
+   	<tr>
+   		<th></th>
+		<th>ID</th>
+		<th>{:L('cate_name')}</th>
+		<th>{:L('status')}</th>
+		<th>{:L('mangers')}</th>
+		
+   	</tr>
+	 </thead>	
+	<tbody>
+        {$list}
+    	</tbody>
+	</table>
+      
+      </div>
+
+      <hr>
+
+<include file="public:footer" />
+   

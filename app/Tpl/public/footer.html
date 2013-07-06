@@ -1,0 +1,25 @@
+   <div class="footer">
+        <p>&copy; GSOA 2013.Make By gemerz. &nbsp;&nbsp;|&nbsp;&nbsp;Hi,&nbsp;{$auth.username}&nbsp;<a class="login_out">{:L("login_out")}</a></p>
+      </div>
+
+    </div> <!-- /container -->
+
+ <script type="text/javascript">
+ $(document).ready(function(){
+ 	$('.login_out').click(function(){
+	$.get("{:U('index/login_out')}",function(data) {
+
+	if(data['msg']=="OK"){
+			window.location.href=data['data'];
+		}
+
+});
+
+ 	});
+
+
+ });
+ </script>
+
+  </body>
+</html>
