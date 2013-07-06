@@ -1,0 +1,36 @@
+<div class="add_menu">
+<form class="form form-horizontal"  method="post">
+	 <div class="control-group">
+	 	<label class="control-label" > {:L('admin_role')} :</label>
+	 	   <div class="controls">
+	 	<select class="AJAXselect role_id" data-toggle="AJAXselect" data-getList="true"></select>
+				 </div>
+	 	</div>
+    <div class="control-group">
+        <label class="control-label">{:L('admin_name')} :</label>
+        <div class="controls">
+            <input type="text" id="username" name="username" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+	 <div class="control-group">
+        <label class="control-label">{:L('admin_password')} :</label>
+        <div class="controls">
+            <input type="password" id="password" name="password" check-type="required" required-message="内容不能为空！" >
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{:L('status')} :</label>
+        <div class="controls">
+            <label class="radio">
+			<input type="radio" name="status" id="status" value="0" checked='checked'>
+			{:L('un-status')}
+			</label>
+			 <label class="radio">
+			<input type="radio" name="status" id="status" value="1" >
+			{:L('statused')}
+			</label>
+        </div>
+    </div>
+   
+</form>
+</div>

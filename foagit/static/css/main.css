@@ -1,0 +1,71 @@
+
+body {
+    padding-top: 20px;
+    padding-bottom: 60px;
+	
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container > hr {
+    margin: 60px 0;
+}
+
+.muted {
+    margin: 40px 0;
+}
+
+.marketing {
+    margin: 60px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+.navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+.add_menu .table tr td{line-height:40px;}
+.add_menu .table input{height:30px;margin-top:7px;}
+.add_menu .table select{margin-top:7px;height:30px}
+.loading .progress{margin:20px 20px 60px 20px;}
+.AJAXselect{margin:5px 10px 10px 0;}
+.goods_img{position: relative;}
+.img_del{position: absolute;background:#666;display:none;width: 40px;height: 20px;color: #fff;cursor: pointer;bottom:5px;right:5px;text-align: center}
+.img_del:hover{color:#eee;}
+.login_out{cursor: pointer;}
+.img_hoverbox{position:relative;}
+
