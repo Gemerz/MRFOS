@@ -110,6 +110,7 @@
                 <th>
                     {:L('in_time')}
                 </th>
+				
                  <th>
                     {:L('request_by')}
                 </th>
@@ -128,7 +129,7 @@
                     <td>
                         {$val.id}
                     </td>
-					  <td>
+					  <td style="<if condition="$val.status eq 1">color:#375eae;<else />color:#d33626;</if>">
                         {$val.MRF}
                     </td>
                     <td>
@@ -156,6 +157,7 @@
                     <td>
                         {$val.add_time|substr=0,10}
                     </td>
+				
                      <td>
                         {$val.request_by}
                     </td>

@@ -228,12 +228,14 @@ class goodsAction extends oabaseAction {
 			$arrs = array();
 			$arrs = session('admin');
 			
-			$man ="<a href='".U('goods/edit',array('id'=>$val[id]))."'>".L('edit')."</a>
+			$man ="<a class='see_img_btn' href='#' role='button' data-toggle='modal' data-id='".$val[id]."'>".L('see_photo')."</a>
+			<a href='".U('goods/edit',array('id'=>$val[id]))."'>".L('edit')."</a>
                  <a data-toggle='AJAXdelete' data-url='".U('goods/delete',array('id'=>$val[id]))."'>".L('del')."</a>";
 			$parrton = $arrs['role_id'] > 1 ? " " : $man;
+			$colors =$val[status] > 0 ? "color:#375eae;" :"color:#d33626;";
 			$return_list['html']="<tr><td> <input type='checkbox' value=".$val[id]."></td>
 						     <td>$val[id]</td>		
-						     <td>$val[MRF]</td>	
+						     <td style='$colors'>$val[MRF]</td>	
 						     <td>$val[name]</td>
 						     <td>$val[supply]</td>
 						     <td>$name</td>
@@ -243,7 +245,20 @@ class goodsAction extends oabaseAction {
 						       <td>$val[count]</td>	
 						       <td>".substr($val[add_time],0,10)."</td>	
 						         <td>$val[request_by]</td>	
-						       <td>$parrton</td>		
+						       <td>$parrton</td>	
+						       <script>	$('.see_img_btn').on('click',function(e){
+			e.stopPropagation();
+			var id=$(this).attr('data-id');
+			$.get('".U('goods/Ajax_SeeImg')."',{id:id},function(data){
+                        var data = eval('(' + data + ')');
+                         $('#see_photo .modal-body').html(data['data']);
+					 	 $('#see_photo .item:first-child').addClass('active');
+                         $('#see_photo').modal('show');
+							
+                    }, 'html');
+			
+		})
+	 $('.carousel').carousel();</script>	
 				</tr>";
 			$arr[] = $return_list['html'];
 
