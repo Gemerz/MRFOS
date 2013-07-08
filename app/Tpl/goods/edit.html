@@ -63,6 +63,30 @@
                     <legend>
                         {:L('goods_edit')}
                     </legend>
+			     <div class="control-group">
+                        <label class="control-label">
+                            MRF
+                        </label>
+                        <div class="controls">
+                            <input type="text" id="MRF" name="MRF" check-type="required" required-message="名字不能为空！"value="{$goods.MRF}">
+                        </div>
+                    </div>
+					    <div class="control-group">
+                        <label class="control-label">
+                            {:L('goods_title')} :
+                        </label>
+                        <div class="controls">
+                            <input type="text" id="name" name="name" check-type="required" required-message="名字不能为空！" value="{$goods.name}">
+                        </div>
+                    </div>
+				     <div class="control-group">
+                        <label class="control-label">
+                            {:L('title_en')} :
+                        </label>
+                        <div class="controls">
+                            <input type="text" id="ename" name="ename" check-type="required" required-message="名字不能为空！" value="{$goods.ename}">
+                        </div>
+                    </div>
                     <div class="control-group">
                         <label class="control-label">
                             {:L('supply')} :
@@ -71,14 +95,7 @@
                             <input type="text" id="supply" name="supply" check-type="required" required-message="名字不能为空！"value="{$goods.supply}">
                         </div>
                     </div>
-					       <div class="control-group">
-                        <label class="control-label">
-                            MRF
-                        </label>
-                        <div class="controls">
-                            <input type="text" id="MRF" name="MRF" check-type="required" required-message="名字不能为空！"value="{$goods.MRF}">
-                        </div>
-                    </div>
+				
                     <div class="control-group">
                         <label class="control-label">
                             {:L('goods_cate')} :
@@ -107,14 +124,7 @@
                             <input type="hidden" name="storage_id" id="storage_id" value="{$goods.storage_id}"/>
                         </div>
                     </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            {:L('goods_title')} :
-                        </label>
-                        <div class="controls">
-                            <input type="text" id="name" name="name" check-type="required" required-message="名字不能为空！" value="{$goods.name}">
-                        </div>
-                    </div>
+                
                     <div class="control-group">
                         <label class="control-label">
                             {:L('img_upload')} :
@@ -125,14 +135,7 @@
                             <span class="btn imgbtn pull-left" style="margin:1px 0 0 10px;">上传</span>
                         </div>
                     </div>
-                    <div class="control-group">
-                        <label class="control-label">
-                            {:L('title_en')} :
-                        </label>
-                        <div class="controls">
-                            <input type="text" id="ename" name="ename" check-type="required" required-message="名字不能为空！" value="{$goods.ename}">
-                        </div>
-                    </div>
+               
                     <div class="control-group">
                         <label class="control-label">
                             {:L('goods_code')} :

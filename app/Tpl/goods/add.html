@@ -31,10 +31,10 @@
 		<legend>
 {:L('goods_add')}
 </legend>
- <div class="control-group">
-        <label class="control-label">{:L('supply')} :</label>
+	  <div class="control-group">
+        <label class="control-label">MRF :</label>
         <div class="controls">
-            <input type="text" id="supply" name="supply" check-type="required" required-message="名字不能为空！" >
+            <input type="text" id="MRF" name="MRF" check-type="required" required-message="名字不能为空！" >
         </div>
     </div>
  <div class="control-group">
@@ -43,12 +43,20 @@
             <input type="text" id="name" name="name" check-type="required" required-message="名字不能为空！" >
         </div>
     </div>
-	  <div class="control-group">
+		  <div class="control-group">
         <label class="control-label">{:L('title_en')} :</label>
         <div class="controls">
             <input type="text" id="ename" name="ename" check-type="required" required-message="名字不能为空！" >
         </div>
     </div>
+
+	 <div class="control-group">
+        <label class="control-label">{:L('supply')} :</label>
+        <div class="controls">
+            <input type="text" id="supply" name="supply" check-type="required" required-message="名字不能为空！" >
+        </div>
+    </div>
+
 	 <div class="control-group">
 	 	<label class="control-label" > {:L('goods_cate')} :</label>
 	 	   <div class="controls">
