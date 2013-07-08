@@ -163,7 +163,7 @@
                     </td>
                     <td>
                     	 <if condition="$auth.role_id gt 1">
-                    	 
+                    	 	<a class="see_img_btn" href="#" role="button" data-toggle="modal" data-id="{$val.id}">{:L('see_photo')}</a>
                     	 	<else />
 						<a class="see_img_btn" href="#" role="button" data-toggle="modal" data-id="{$val.id}">{:L('see_photo')}</a>
                         <a href="{:U('goods/edit',array('id'=>$val['id']))}">{:L('edit')}</a>
