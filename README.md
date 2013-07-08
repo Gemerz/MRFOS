@@ -4,49 +4,25 @@
 
 <a href="http://mrfos.gemerz.com/" target="_blank">View Demos</a>
 
-<a href="http://jakiestfu.github.io/Snap.js/" target="_blank">View Demos</a>
+<a href="http://www.screenr.com/embed/0EJ7" target="_blank"><img src="http://mrf.frdsports.com/data/upload/img/MRFOS.jpg"></a>
 
-<a href="http://www.screenr.com/embed/0EJ7" target="_blank"><img src="http://i.imgur.com/t3mGcEx.gif"></a>
 
-* [Features](#features)
-* [Support](#support)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Settings &amp; Defaults](#settings-and-defaults)
-* [Public Methods](#public-methods)
-* [Gotchas](#gotchas)
-* [FAQ's](#faq)
-* [Compliments](#compliments)
-* [Licensing](#licensing)
-* [Extras](#extras)
 
-## Features
-* Library Independent
-* High Customization
-* Flick Support
-* User Intent Detection
-* Disable Hyperextension
-* Event Hooks
-* CSS3 Powered Animations with IE fallbacks
-* Drag Support
-* Drag Handle Support
-* Programatic API
-* "No-Drag" Elements
-* Definable Easing Mode
-* Enable/Disable Events
-* Disabled Sides (left or right)
-* Supports [Ratchet](http://maker.github.com/ratchet/) (with templates!)
+## 存在问题
+* javascript有待优化。
+* 可以转用pjax
+* 增加功能
+* 改变权限结构
 
-## Support
-* Firefox 10+
-* Wide Webkit Support (including Android WebKit 2.3.X)
+
+## 支持
+* Firefox 
+* Wide Webkit Support 
 * IE 10
-* IE 9 Supports Toggling, Dragging but no Transitions
-* IE 7/8 Supports Toggling but no dragging or Transitions
-
+* IE 9 
 
 
 
 ## Licensing
 
-MIT, dawg
+MIT
